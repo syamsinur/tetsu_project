@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@layer components{
+
+  .hamburger-line {
+    @apply w-7.5 h-0.5 my-2 block bg-slate-900
+  }
+
+  .hamburger-active > span:nth-child(1) {
+    @apply rotate-45
+  }
+
+  .hamburger-active > span:nth-child(2) {
+    @apply scale-0
+  }
+
+  .hamburger-active > span:nth-child(3) {
+    @apply -rotate-45
+  }
+}
+
+@theme {
+    --font-arial: "Arial";
+    --color-primary: #22d3ee;
+    --color-secondary: #0b5884;
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 2rem;
+}
+
+.navbar-fixed {
+   @apply fixed top-0 left-0 w-full z-9999 bg-white/80 backdrop-blur-sm shadow-md
+}

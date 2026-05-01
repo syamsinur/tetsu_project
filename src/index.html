@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desain web seru</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body class="font-arial">
+
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                   <a href="#home" class="text-lg font-bold text-primary block py-6">Tetsu Project</a>
+                </div>
+                <div class="flex items-center">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 cursor-pointer lg:hidden">
+                        <span class="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
+                    </button>
+                    <nav id="nav-menu" class="hidden absolute bg-sky-100 shadow-xl top-full right-4 max-w-50 w-full py-5 rounded-lg lg:block lg:static lg:max-w-full lg:shadow-none lg:bg-transparent">
+                        <ul class="block lg:flex">
+                            <li><a href="#home" class="text-base text-slate-900 py-2 mx-8 flex hover:text-primary transition duration-300">Beranda</a></li>
+                            <li><a href="#about" class="text-base text-slate-900 py-2 mx-8 flex hover:text-primary transition duration-300">tentang Kami</a></li>
+                            <li><a href="#service" class="text-base text-slate-900 py-2 mx-8 flex hover:text-primary transition duration-300">Layanan</a></li>
+                            <li><a href="#desain" class="text-base text-slate-900 py-2 mx-8 flex hover:text-primary transition duration-300">Desain</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- hero section -->
+    <section id="home" class="pt-36">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <!-- item kiri -->
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="text-lg font-semibold text-slate-900">Haloo! Selamat datang di halaman</h1>
+                    <span class="text-5xl font-bold text-primary md:text-6xl">Tetsu <span class="text-secondary">Project</span></span>
+                    <p class="mt-1 text-sm font-medium text-slate-600 leading-6">
+                        kami menyediakan layanan pembuatan website yang keren untuk kamu para pelaku usaha UMKM ataupun usaha di bidang lainnya dengan harga yang terjangkau!
+                    </p>
+                    <button class="mt-6 px-8 py-3 text-base font-semibold  bg-primary text-white rounded-full hover:opacity-60 transition duration-300">Tentang kami!</button>
+                </div>
+
+                <!-- item kanan -->
+                 <div class="w-full mt-8 self-center mx-auto lg:w-1/2 lg:mt-0">
+                    <div class="relative max-w-full mx-auto group">
+                        <img class="shadow-md shadow-primary rounded-full group-hover:shadow-none group-hover:scale-[95%] group-hover:bg-white transition duration-1000" src="img/logo.png" alt="">
+                        <img class="absolute rounded-full top-0 right-0 translate-x-3 translate-y-3 -z-10 opacity-50 group-hover:-translate-x-0.5 group-hover:-translate-y-0.5 group-hover:shadow-md group-hover:shadow-primary group-hover:animate-spin transition duration-1000" src="img/logo.png" alt="">
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="pt-36 pb-36">
+        <div class="container">
+            <!-- item kiri -->
+            <div class="grid grid-cols-1">
+                <div class="w-full self-center px-4">
+                    <h2 class="text-lg font-semibold text-primary uppercase">Tentang kami</h2>
+                    <p class="mt-2 text-slate-600 text-lg">Kalian bingung usaha kalian gitu gitu aja dan pengen ada inovasi <span class="text-sky-600 font-semibold tracking-wider">digital</span>? pengen usaha kalian dikenal luas gak cuman tetangga sekeliling kalian? tenaang..</p>
+                    <p class="mt-2 text-slate-600 text-lg">Bagi kalian para pelaku <span class="text-sky-600 font-semibold tracking-wider">UMKM</span> atau usaha lainnya yang pengen upgrade usaha kalian hubungi kami aja. Kami bisa bantu kalian upgrade usaha kalian dengan mulai dari bangun website untuk usaha kalian supaya usaha kalian gak cuman dikenal oleh tetangga doang..</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+<script src="./js/script.js"></script>
+</body>
+</html>
