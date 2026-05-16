@@ -24,6 +24,7 @@
     --font-arial: "Arial";
     --color-primary: #22d3ee;
     --color-secondary: #0b5884;
+    --color-body: #475569;
 }
 
 @utility container {
